@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ray
+  name: keihehg
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ray
+      app: keihehg
   template:
     metadata:
       labels:
-        app: ray
+        app: keihehg
     spec:
       containers:
-      - image: okteto.dev/ray:latest
-        name: ray
+      - image: okteto.dev/keihehg:latest
+        name: keihehg
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "d5979da5-c0fe-4773-97a0-cc36dce7c172"
         - name: Vless_Path
-          value: "/vl555"
+          value: "/vleohdie1"
         - name: Vmess_UUID
-          value: "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+          value: "d5979da5-c0fe-4773-97a0-cc36dce7c172"
         - name: Vmess_Path
-          value: "/vm666"
+          value: "/vmeoru1h3"
         - name: Share_Path
           value: "/v2link"
